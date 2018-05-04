@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 56e6add8c16bc2a4eaee518459120c7a
+timeCreated: 1525429647
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bodyMesh
+    100002: imagePlane1
+    100004: l_eye
+    100006: lukas:head
+    100008: lukas:l_ankle
+    100010: lukas:l_bicep_roll
+    100012: lukas:l_clavicle
+    100014: lukas:l_elbow
+    100016: lukas:l_foot
+    100018: lukas:l_forearm_roll
+    100020: lukas:l_hip
+    100022: lukas:l_index1
+    100024: lukas:l_index2
+    100026: lukas:l_index3
+    100028: lukas:l_knee
+    100030: lukas:l_middle1
+    100032: lukas:l_middle2
+    100034: lukas:l_middle3
+    100036: lukas:l_palm
+    100038: lukas:l_pinky1
+    100040: lukas:l_pinky2
+    100042: lukas:l_pinky3
+    100044: lukas:l_ring1
+    100046: lukas:l_ring2
+    100048: lukas:l_ring3
+    100050: lukas:l_shoulder
+    100052: lukas:l_thigh_roll
+    100054: lukas:l_thumb1
+    100056: lukas:l_thumb2
+    100058: lukas:l_thumb3
+    100060: lukas:l_wrist
+    100062: lukas:neck_base
+    100064: lukas:r_ankle
+    100066: lukas:r_bicep_roll
+    100068: lukas:r_clavicle
+    100070: lukas:r_elbow
+    100072: lukas:r_foot
+    100074: lukas:r_forearm_roll
+    100076: lukas:r_hip
+    100078: lukas:r_index1
+    100080: lukas:r_index2
+    100082: lukas:r_index3
+    100084: lukas:r_knee
+    100086: lukas:r_middle1
+    100088: lukas:r_middle2
+    100090: lukas:r_middle3
+    100092: lukas:r_palm
+    100094: lukas:r_pinky1
+    100096: lukas:r_pinky2
+    100098: lukas:r_pinky3
+    100100: lukas:r_ring1
+    100102: lukas:r_ring2
+    100104: lukas:r_ring3
+    100106: lukas:r_shoulder
+    100108: lukas:r_thigh_roll
+    100110: lukas:r_thumb1
+    100112: lukas:r_thumb2
+    100114: lukas:r_thumb3
+    100116: lukas:r_wrist
+    100118: lukas:spine1
+    100120: lukas:spine2
+    100122: lukas:spine3
+    100124: outer_shell_l
+    100126: outer_shell_r
+    100128: pelvis
+    100130: //RootNode
+    100132: r_eye
+    400000: bodyMesh
+    400002: imagePlane1
+    400004: l_eye
+    400006: lukas:head
+    400008: lukas:l_ankle
+    400010: lukas:l_bicep_roll
+    400012: lukas:l_clavicle
+    400014: lukas:l_elbow
+    400016: lukas:l_foot
+    400018: lukas:l_forearm_roll
+    400020: lukas:l_hip
+    400022: lukas:l_index1
+    400024: lukas:l_index2
+    400026: lukas:l_index3
+    400028: lukas:l_knee
+    400030: lukas:l_middle1
+    400032: lukas:l_middle2
+    400034: lukas:l_middle3
+    400036: lukas:l_palm
+    400038: lukas:l_pinky1
+    400040: lukas:l_pinky2
+    400042: lukas:l_pinky3
+    400044: lukas:l_ring1
+    400046: lukas:l_ring2
+    400048: lukas:l_ring3
+    400050: lukas:l_shoulder
+    400052: lukas:l_thigh_roll
+    400054: lukas:l_thumb1
+    400056: lukas:l_thumb2
+    400058: lukas:l_thumb3
+    400060: lukas:l_wrist
+    400062: lukas:neck_base
+    400064: lukas:r_ankle
+    400066: lukas:r_bicep_roll
+    400068: lukas:r_clavicle
+    400070: lukas:r_elbow
+    400072: lukas:r_foot
+    400074: lukas:r_forearm_roll
+    400076: lukas:r_hip
+    400078: lukas:r_index1
+    400080: lukas:r_index2
+    400082: lukas:r_index3
+    400084: lukas:r_knee
+    400086: lukas:r_middle1
+    400088: lukas:r_middle2
+    400090: lukas:r_middle3
+    400092: lukas:r_palm
+    400094: lukas:r_pinky1
+    400096: lukas:r_pinky2
+    400098: lukas:r_pinky3
+    400100: lukas:r_ring1
+    400102: lukas:r_ring2
+    400104: lukas:r_ring3
+    400106: lukas:r_shoulder
+    400108: lukas:r_thigh_roll
+    400110: lukas:r_thumb1
+    400112: lukas:r_thumb2
+    400114: lukas:r_thumb3
+    400116: lukas:r_wrist
+    400118: lukas:spine1
+    400120: lukas:spine2
+    400122: lukas:spine3
+    400124: outer_shell_l
+    400126: outer_shell_r
+    400128: pelvis
+    400130: //RootNode
+    400132: r_eye
+    2100000: body
+    2100002: head
+    2100004: sclera
+    2100006: iris
+    2100008: outer_shell
+    2300000: bodyMesh
+    2300002: l_eye
+    2300004: outer_shell_l
+    2300006: outer_shell_r
+    2300008: r_eye
+    3300000: bodyMesh
+    3300002: l_eye
+    3300004: outer_shell_l
+    3300006: outer_shell_r
+    3300008: r_eye
+    4300000: bodyMesh
+    4300002: r_eye
+    4300004: outer_shell_r
+    4300006: l_eye
+    4300008: outer_shell_l
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: head
+    second: {fileID: 2100000, guid: 72788c8233ec8be47ae0e676a91ad7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iris
+    second: {fileID: 2100000, guid: 96fd8b47240d8a84b9e1581d48012eba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outer_shell
+    second: {fileID: 2100000, guid: fb86ee7dbc306444bb83981c1c1ed5dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sclera
+    second: {fileID: 2100000, guid: a9f82b3da304f7e4dad75edd89604612, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iris
+    second: {fileID: 2800000, guid: 5d48d3500bd6b5c41b2da322173648bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sclera_ramp
+    second: {fileID: 2800000, guid: e396f3a893be8dc4793df2162f382f4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: skin_u1_v1
+    second: {fileID: 2800000, guid: c6c169a48d0181148b113020dda4eb1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: skin_u1_v2
+    second: {fileID: 2800000, guid: 8af2100998683924a8b674cdd798d245, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

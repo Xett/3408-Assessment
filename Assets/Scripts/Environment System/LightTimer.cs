@@ -6,9 +6,7 @@ using UnityEngine.UI;
 public class LightTimer : MonoBehaviour
 {
     public GameObject directionalLight;
-    public float maxGameTime;
-    private static float gameTime;
-    public Text timerText;
+    public GameObject GameManager;
 
     // Use this for initialization
     void Start ()
@@ -17,20 +15,15 @@ public class LightTimer : MonoBehaviour
         {
             directionalLight = GameObject.FindWithTag("directionalLight");
         }
-        gameTime = maxGameTime;
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        gameTime -= Time.deltaTime;
-
+        float percentageDayComplete = GameManager.GetComponent<GameTimer>().percentageDayComplete;
         // Light direction
-        float percentageDayComplete = gameTime / maxGameTime;
         float xAngle = 180 * percentageDayComplete;
         Quaternion newRotation = Quaternion.Euler(xAngle, 0, 0);
         directionalLight.transform.rotation = newRotation;
-
-        timerText.text = "Timer: " + gameTime;
 	}
 }

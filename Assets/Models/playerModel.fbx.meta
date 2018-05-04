@@ -164,6 +164,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 7dc45f489e5aa134daf5a7d8fc77b8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: head
     second: {fileID: 2100000, guid: 72788c8233ec8be47ae0e676a91ad7ff, type: 2}
   - first:
@@ -241,7 +246,7 @@ ModelImporter:
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
-    keepQuads: 0
+    keepQuads: 1
     weldVertices: 1
     preserveHierarchy: 0
     indexFormat: 0

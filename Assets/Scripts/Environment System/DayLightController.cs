@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LightTimer : MonoBehaviour
+public class DayLightController : MonoBehaviour
 {
     public GameObject directionalLight;
     public GameObject GameManager;

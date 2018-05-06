@@ -72,6 +72,14 @@ ModelImporter:
     100128: pelvis
     100130: //RootNode
     100132: r_eye
+    100134: bodyMesh1
+    100136: hair2
+    100138: l_eye1
+    100140: outer_shell_l1
+    100142: outer_shell_r1
+    100144: pants2
+    100146: r_eye1
+    100148: singlet2
     400000: bodyMesh
     400002: imagePlane1
     400004: l_eye
@@ -139,26 +147,62 @@ ModelImporter:
     400128: pelvis
     400130: //RootNode
     400132: r_eye
+    400134: bodyMesh1
+    400136: hair2
+    400138: l_eye1
+    400140: outer_shell_l1
+    400142: outer_shell_r1
+    400144: pants2
+    400146: r_eye1
+    400148: singlet2
     2100000: body
     2100002: head
     2100004: sclera
     2100006: iris
     2100008: outer_shell
+    2100010: skin
+    2100012: singlet1
+    2100014: pants1
+    2100016: hair1
     2300000: bodyMesh
     2300002: l_eye
     2300004: outer_shell_l
     2300006: outer_shell_r
     2300008: r_eye
+    2300010: bodyMesh1
+    2300012: hair2
+    2300014: l_eye1
+    2300016: outer_shell_l1
+    2300018: outer_shell_r1
+    2300020: pants2
+    2300022: r_eye1
+    2300024: singlet2
     3300000: bodyMesh
     3300002: l_eye
     3300004: outer_shell_l
     3300006: outer_shell_r
     3300008: r_eye
+    3300010: bodyMesh1
+    3300012: hair2
+    3300014: l_eye1
+    3300016: outer_shell_l1
+    3300018: outer_shell_r1
+    3300020: pants2
+    3300022: r_eye1
+    3300024: singlet2
     4300000: bodyMesh
     4300002: r_eye
     4300004: outer_shell_r
     4300006: l_eye
     4300008: outer_shell_l
+    4300010: bodyMesh1
+    4300012: r_eye1
+    4300014: outer_shell_r1
+    4300016: l_eye1
+    4300018: outer_shell_l1
+    4300020: singlet2
+    4300022: pants2
+    4300024: hair2
     9500000: //RootNode
   externalObjects:
   - first:
@@ -166,6 +210,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: body
     second: {fileID: 2100000, guid: 7dc45f489e5aa134daf5a7d8fc77b8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair1
+    second: {fileID: 2100000, guid: 8e3e75f36f34f1e4db815a922d48b006, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -184,8 +233,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: pants1
+    second: {fileID: 2100000, guid: 55674505538cbf84a8bffafdb7c416c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: sclera
     second: {fileID: 2100000, guid: a9f82b3da304f7e4dad75edd89604612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: singlet1
+    second: {fileID: 2100000, guid: 43f1564232ac01e40bf894dafb643ee8, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule

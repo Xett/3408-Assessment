@@ -9,6 +9,8 @@ TagManager:
   - Skybox/Lightning Particle System
   - UI/TimerText
   - pickupItem
+  - shed
+  - bin
   layers:
   - Default
   - TransparentFX

@@ -44,7 +44,37 @@ ModelImporter:
     4300008: wheel
     4300010: frame
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: axle1
+    second: {fileID: 2100000, guid: e47d88f81293fc34ea4b5af2610000ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrow1
+    second: {fileID: 2100000, guid: 791ebc24f77a0c848b4a9575b547ebdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame1
+    second: {fileID: 2100000, guid: 03b280c64d07edd41a558884231ff159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handles1
+    second: {fileID: 2100000, guid: 7dca55042333e4c499dfa727cc0771a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tire1
+    second: {fileID: 2100000, guid: c1a9edd5758513a4da31884abbbcc70e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel1
+    second: {fileID: 2100000, guid: 977f25cd20caa084aae6b709c9478df7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -11,20 +11,24 @@ public class PickUpItems : MonoBehaviour {
 	public Camera cam;
 	public float closestDistance = -0f;
 	public List<Collider> TriggerList = new List<Collider>();
+    Animator anim;
 
 	void Start() {
-		cam = Camera.main;
+        anim = GetComponent<Animator>();
 	}
 		
 	void Update() {
 		//checks for an input press on every frame
 		if (Input.GetKeyDown("return")) {
-			if (holdingItem) {
-				placeDown();
+			if (holdingItem)
+            {
+                placeDown();
 			}
-			else {
-				pickUp();
-			}
+			else
+            {
+                anim.SetTrigger("Pickup");
+                pickUp();
+            }
 		}
 
 		//if one or more objects are within a collider, distance between player and object is calculated
@@ -119,5 +123,5 @@ public class PickUpItems : MonoBehaviour {
 		guide.GetChild(0).parent = null;
 
 		holdingItem = false;
-	}
+    }
 }

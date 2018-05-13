@@ -16,15 +16,17 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 movement;
     Rigidbody playerRigidbody;
+    Animator anim;
 
     float rotationX = 0f;
     float rotationY = 0f;
 
 	// Use this for initialization
-	void Start ()
+	void Awake ()
     {
         Cursor.lockState = CursorLockMode.Locked;
         playerRigidbody = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
@@ -45,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
         Movement(h, v);
         Turning();
-        //Animating(h, v);
+        Animating(h, v);
 	}
 
     void Movement(float h, float v)
@@ -64,5 +66,6 @@ public class PlayerMovement : MonoBehaviour
     void Animating(float h, float v)
     {
         bool walking = h != 0f || v != 0f;
+        anim.SetBool("IsWalking", walking);
     }
 }

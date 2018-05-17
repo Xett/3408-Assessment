@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreCalculation : MonoBehaviour {
+public class ObjectDetection : MonoBehaviour {
 
-	public int score = 0;
+	public int scoreValue = 10;
 
 	// Use this for initialization
 	void Start () {
@@ -19,14 +19,14 @@ public class ScoreCalculation : MonoBehaviour {
 	// whenever pickup item enters shed, score increases
 	void OnTriggerEnter(Collider col) {
 		if (col.gameObject.tag == "pickupItem") {
-				score += 10;
+			ScoreManager.score += scoreValue;
 		}
 	}
 
 	// whenever pickup item leaves shed, score decreases
 	void OnTriggerExit(Collider col) {
 		if (col.gameObject.tag == "pickupItem") {
-			score -= 10;
+			ScoreManager.score -= scoreValue;
 		}
 	}
 }

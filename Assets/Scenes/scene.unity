@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f6b55f59133e04790fbefabc7da4fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxGameTime: 5
+  maxGameTime: 60
   gameTime: 0
   percentageDayComplete: 0
 --- !u!114 &897784071

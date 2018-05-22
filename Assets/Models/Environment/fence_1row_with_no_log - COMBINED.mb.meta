@@ -1,77 +1,108 @@
 fileFormatVersion: 2
-guid: d0fe2c8bc527f5345b8801150ed5352d
-timeCreated: 1525797316
+guid: 82b5ac4cd7e49434ea0a387b61c286ad
+timeCreated: 1527006694
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 19
   fileIDToRecycleName:
-    100000: pCube1
-    100002: pCube10
-    100004: pCube2
-    100006: pCube3
-    100008: pCube4
-    100010: pCube5
-    100012: pCube6
-    100014: pCube9
-    100016: //RootNode
-    100018: transform1
-    100020: transform2
-    100022: transform3
-    100024: transform4
-    100026: transform5
-    100028: transform6
-    100030: transform7
-    400000: pCube1
-    400002: pCube10
-    400004: pCube2
-    400006: pCube3
-    400008: pCube4
-    400010: pCube5
-    400012: pCube6
-    400014: pCube9
-    400016: //RootNode
-    400018: transform1
-    400020: transform2
-    400022: transform3
-    400024: transform4
-    400026: transform5
-    400028: transform6
-    400030: transform7
-    2300000: pCube10
-    3300000: pCube10
-    4300000: pCube10
+    100000: //RootNode
+    100002: group
+    100004: pCube1
+    100006: pCube11
+    100008: pCube12
+    100010: pCube13
+    100012: pCube14
+    100014: pCube15
+    100016: pCube16
+    100018: pCube17
+    100020: pCube18
+    100022: pCube19
+    100024: pCube2
+    100026: pCube3
+    100028: pCube4
+    100030: pCube5
+    100032: pCube6
+    100034: pCube7
+    100036: pCube8
+    100038: pCube9
+    100040: transform1
+    100042: transform10
+    100044: transform11
+    100046: transform12
+    100048: transform13
+    100050: transform14
+    100052: transform15
+    100054: transform16
+    100056: transform17
+    100058: transform2
+    100060: transform3
+    100062: transform4
+    100064: transform5
+    100066: transform6
+    100068: transform7
+    100070: transform8
+    100072: transform9
+    400000: //RootNode
+    400002: group
+    400004: pCube1
+    400006: pCube11
+    400008: pCube12
+    400010: pCube13
+    400012: pCube14
+    400014: pCube15
+    400016: pCube16
+    400018: pCube17
+    400020: pCube18
+    400022: pCube19
+    400024: pCube2
+    400026: pCube3
+    400028: pCube4
+    400030: pCube5
+    400032: pCube6
+    400034: pCube7
+    400036: pCube8
+    400038: pCube9
+    400040: transform1
+    400042: transform10
+    400044: transform11
+    400046: transform12
+    400048: transform13
+    400050: transform14
+    400052: transform15
+    400054: transform16
+    400056: transform17
+    400058: transform2
+    400060: transform3
+    400062: transform4
+    400064: transform5
+    400066: transform6
+    400068: transform7
+    400070: transform8
+    400072: transform9
+    2300000: pCube19
+    3300000: pCube19
+    4300000: pCube19
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 67ee1ef62f9927c408fa858ffef5de0c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -79,18 +110,13 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -100,7 +126,6 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

@@ -11,10 +11,10 @@ public class PickUpItems : MonoBehaviour {
 	public Camera cam;
 	public float closestDistance = -0f;
 	public List<Collider> TriggerList = new List<Collider>();
-    Animator anim;
+    public Animator anim;
 
 	void Start() {
-        anim = GetComponent<Animator>();
+		anim = GetComponent<Animator>();
 	}
 		
 	void Update() {

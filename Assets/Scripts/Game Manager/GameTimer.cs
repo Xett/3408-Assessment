@@ -8,6 +8,7 @@ public class GameTimer : MonoBehaviour
     public float maxGameTime;
 	Text timerString;
     public float gameTime;
+	public float timeElasped;
     public float percentageDayComplete;
 
     // Use this for initialization
@@ -22,6 +23,7 @@ public class GameTimer : MonoBehaviour
     {
 		if (gameTime > 0) {
 			gameTime -= Time.deltaTime;
+			timeElasped += Time.deltaTime;
 			int mins = Mathf.FloorToInt (gameTime / 60F);
 			int secs = Mathf.FloorToInt (gameTime - mins * 60);
 			string formattedTime = string.Format ("{0:0}:{1:00}", mins, secs);

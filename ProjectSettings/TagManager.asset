@@ -11,6 +11,7 @@ TagManager:
   - pickupItem
   - shed
   - bin
+  - projectile
   layers:
   - Default
   - TransparentFX

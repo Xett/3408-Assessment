@@ -16,14 +16,6 @@ public class ScoreManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.G)) {
-			if (scoreShown) {
-				scoreShown = false;
-				scoreString.text = "Press G to see score";
-			} else {
-				scoreShown = true;
-				scoreString.text = "Score: " + score;
-			}
-		}
+		scoreString.text = "Score: " + score;
 	}
 }

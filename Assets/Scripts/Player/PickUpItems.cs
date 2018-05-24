@@ -11,7 +11,8 @@ public class PickUpItems : MonoBehaviour {
 	public Camera cam;
 	public float closestDistance = -0f;
 	public List<Collider> TriggerList = new List<Collider>();
-    public Animator anim;
+    
+	Animator anim;
 
 	void Start() {
 		anim = GetComponent<Animator>();
@@ -97,6 +98,7 @@ public class PickUpItems : MonoBehaviour {
 		pickupItem.transform.SetParent(guide);
 
 		//when carrying object, it does not effect any objects
+		pickupItem.GetComponent<Rigidbody> ().useGravity = false;
 		pickupItem.GetComponent<Rigidbody> ().isKinematic = true;
 
 		//we apply the same rotation our main object (Camera) has.
@@ -117,6 +119,7 @@ public class PickUpItems : MonoBehaviour {
 		}
 
 		//regular physics
+		pickupItem.GetComponent<Rigidbody> ().useGravity = true;
 		pickupItem.GetComponent<Rigidbody> ().isKinematic = false;
 
 		//Unparent our ball

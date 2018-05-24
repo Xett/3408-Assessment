@@ -5,18 +5,21 @@ using System;
 
 public class CoconutThrowing : MonoBehaviour {
 
-	public GameTimer timer;
+	public GameObject GameManager;
 	public Rigidbody coconut;
 	public float speed;
-	public PlayerHealth health;
 
 	//Camera playerCam;
 	Vector3 position;
 	Vector3 playerPosition;
 	Transform player;
+	GameTimer timer;
+	PlayerHealth health;
 
 	// Use this for initialization
 	void Start () {
+		timer = GameManager.GetComponent<GameTimer> ();
+		health = GameManager.GetComponent<PlayerHealth> ();
 		InvokeRepeating ("LaunchProjectile", 5f, 5f);
 	}
 	
@@ -26,7 +29,7 @@ public class CoconutThrowing : MonoBehaviour {
 	}
 
 	void LaunchProjectile () {
-		if (timer.gameTime >= 0) {
+		if (timer.gameTime >= 0 || health.currentHealth >= 0) {
 			System.Random rand = new System.Random ();
 
 			GameObject playerObject = GameObject.Find ("Player");

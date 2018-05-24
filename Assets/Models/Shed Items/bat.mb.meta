@@ -19,6 +19,8 @@ ModelImporter:
     400008: pCylinder1
     400010: transform1
     400012: transform2
+    2100000: hitty_bit
+    2100002: handle
     2300000: pCube3
     2300002: pCylinder1
     3300000: pCube3

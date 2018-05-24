@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f6b55f59133e04790fbefabc7da4fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxGameTime: 0
+  maxGameTime: 100
   gameTime: 0
   timeElasped: 0
   percentageDayComplete: 0
@@ -2575,7 +2575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a64f6e4007c313f489e3f9cb79544f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 897784070}
+  timer: {fileID: 277476880}
   coconut: {fileID: 54390149847870432, guid: 7d2254ca584e5d44a8359651200738c0, type: 2}
   speed: 4000
   health: {fileID: 261316244}
@@ -2670,7 +2670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6e2e31d91eb1904f81383731a40b1ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 897784070}
+  GameManager: {fileID: 277476878}
 --- !u!95 &625257773
 Animator:
   serializedVersion: 3
@@ -3396,8 +3396,8 @@ GameObject:
   - component: {fileID: 897784069}
   - component: {fileID: 897784072}
   - component: {fileID: 897784071}
-  - component: {fileID: 897784070}
   - component: {fileID: 897784073}
+  - component: {fileID: 897784070}
   m_Layer: 5
   m_Name: TimerText
   m_TagString: Untagged
@@ -3431,13 +3431,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 897784068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6f6b55f59133e04790fbefabc7da4fe, type: 3}
+  m_Script: {fileID: 11500000, guid: 6be24ee2f3d114f4784e27e52d58b8dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxGameTime: 60
-  gameTime: 0
-  timeElasped: 0
-  percentageDayComplete: 0
+  GameManager: {fileID: 277476878}
 --- !u!114 &897784071
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -121,6 +121,9 @@ ModelImporter:
     400110: transform7
     400112: transform8
     400114: transform9
+    2100000: pour
+    2100002: brick
+    2100004: back
     2300000: pCylinder29
     3300000: pCylinder29
     4300000: pCylinder29

@@ -7,8 +7,7 @@ public class DayLightController : MonoBehaviour
 {
     public GameObject directionalLight;
     public GameObject GameManager;
-
-    // Use this for initialization
+    
     void Start ()
     {
         if(directionalLight==null)

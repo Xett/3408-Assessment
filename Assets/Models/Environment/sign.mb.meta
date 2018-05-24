@@ -25,6 +25,8 @@ ModelImporter:
     400014: pCube2
     400016: transform3
     400018: transform4
+    2100000: lambert3
+    2100002: pole
     2300000: pCylinder2
     2300002: pCube2
     3300000: pCylinder2

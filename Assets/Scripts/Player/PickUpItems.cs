@@ -65,7 +65,7 @@ public class PickUpItems : MonoBehaviour {
 			return;
 		}
 
-		if (col.gameObject.tag == "pickupItem") {
+		if (col.gameObject.tag == "pickupItem" || col.gameObject.tag == "rubbish") {
 			if (!TriggerList.Contains (col)) {
 				TriggerList.Add (col);
 			}
@@ -78,7 +78,7 @@ public class PickUpItems : MonoBehaviour {
 			return;
 		}
 
-		if (col.gameObject.tag == "pickupItem") {
+		if (col.gameObject.tag == "pickupItem" || col.gameObject.tag == "rubbish") {
 			if (TriggerList.Contains(col)) {
 				TriggerList.Remove(col);
 			}

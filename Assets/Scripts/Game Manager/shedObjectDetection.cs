@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectDetection : MonoBehaviour {
+public class shedObjectDetection : MonoBehaviour {
 
 	public int scoreValue = 10;
 

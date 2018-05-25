@@ -339,6 +339,74 @@ ModelImporter:
     100662: Walking__1_2:mixamorig:Spine
     100664: Walking__1_2:mixamorig:Spine1
     100666: Walking__1_2:mixamorig:Spine2
+    100668: playerModel:bodyMesh_orig
+    100670: playerModel:Head
+    100672: playerModel:HeadTop_End
+    100674: playerModel:Hips
+    100676: playerModel:LeftArm
+    100678: playerModel:LeftEye
+    100680: playerModel:LeftFoot
+    100682: playerModel:LeftForeArm
+    100684: playerModel:LeftHand
+    100686: playerModel:LeftHandIndex1
+    100688: playerModel:LeftHandIndex2
+    100690: playerModel:LeftHandIndex3
+    100692: playerModel:LeftHandIndex4
+    100694: playerModel:LeftHandMiddle1
+    100696: playerModel:LeftHandMiddle2
+    100698: playerModel:LeftHandMiddle3
+    100700: playerModel:LeftHandMiddle4
+    100702: playerModel:LeftHandPinky1
+    100704: playerModel:LeftHandPinky2
+    100706: playerModel:LeftHandPinky3
+    100708: playerModel:LeftHandPinky4
+    100710: playerModel:LeftHandRing1
+    100712: playerModel:LeftHandRing2
+    100714: playerModel:LeftHandRing3
+    100716: playerModel:LeftHandRing4
+    100718: playerModel:LeftHandThumb1
+    100720: playerModel:LeftHandThumb2
+    100722: playerModel:LeftHandThumb3
+    100724: playerModel:LeftHandThumb4
+    100726: playerModel:LeftLeg
+    100728: playerModel:LeftShoulder
+    100730: playerModel:LeftToe_End
+    100732: playerModel:LeftToeBase
+    100734: playerModel:LeftUpLeg
+    100736: playerModel:Neck
+    100738: playerModel:RightArm
+    100740: playerModel:RightEye
+    100742: playerModel:RightFoot
+    100744: playerModel:RightForeArm
+    100746: playerModel:RightHand
+    100748: playerModel:RightHandIndex1
+    100750: playerModel:RightHandIndex2
+    100752: playerModel:RightHandIndex3
+    100754: playerModel:RightHandIndex4
+    100756: playerModel:RightHandMiddle1
+    100758: playerModel:RightHandMiddle2
+    100760: playerModel:RightHandMiddle3
+    100762: playerModel:RightHandMiddle4
+    100764: playerModel:RightHandPinky1
+    100766: playerModel:RightHandPinky2
+    100768: playerModel:RightHandPinky3
+    100770: playerModel:RightHandPinky4
+    100772: playerModel:RightHandRing1
+    100774: playerModel:RightHandRing2
+    100776: playerModel:RightHandRing3
+    100778: playerModel:RightHandRing4
+    100780: playerModel:RightHandThumb1
+    100782: playerModel:RightHandThumb2
+    100784: playerModel:RightHandThumb3
+    100786: playerModel:RightHandThumb4
+    100788: playerModel:RightLeg
+    100790: playerModel:RightShoulder
+    100792: playerModel:RightToe_End
+    100794: playerModel:RightToeBase
+    100796: playerModel:RightUpLeg
+    100798: playerModel:Spine
+    100800: playerModel:Spine1
+    100802: playerModel:Spine2
     400000: bodyMesh_Ctrl_ChestEndEffector
     400002: bodyMesh_Ctrl_ChestOriginEffector
     400004: bodyMesh_Ctrl_Head
@@ -673,6 +741,74 @@ ModelImporter:
     400662: Walking__1_2:mixamorig:Spine
     400664: Walking__1_2:mixamorig:Spine1
     400666: Walking__1_2:mixamorig:Spine2
+    400668: playerModel:bodyMesh_orig
+    400670: playerModel:Head
+    400672: playerModel:HeadTop_End
+    400674: playerModel:Hips
+    400676: playerModel:LeftArm
+    400678: playerModel:LeftEye
+    400680: playerModel:LeftFoot
+    400682: playerModel:LeftForeArm
+    400684: playerModel:LeftHand
+    400686: playerModel:LeftHandIndex1
+    400688: playerModel:LeftHandIndex2
+    400690: playerModel:LeftHandIndex3
+    400692: playerModel:LeftHandIndex4
+    400694: playerModel:LeftHandMiddle1
+    400696: playerModel:LeftHandMiddle2
+    400698: playerModel:LeftHandMiddle3
+    400700: playerModel:LeftHandMiddle4
+    400702: playerModel:LeftHandPinky1
+    400704: playerModel:LeftHandPinky2
+    400706: playerModel:LeftHandPinky3
+    400708: playerModel:LeftHandPinky4
+    400710: playerModel:LeftHandRing1
+    400712: playerModel:LeftHandRing2
+    400714: playerModel:LeftHandRing3
+    400716: playerModel:LeftHandRing4
+    400718: playerModel:LeftHandThumb1
+    400720: playerModel:LeftHandThumb2
+    400722: playerModel:LeftHandThumb3
+    400724: playerModel:LeftHandThumb4
+    400726: playerModel:LeftLeg
+    400728: playerModel:LeftShoulder
+    400730: playerModel:LeftToe_End
+    400732: playerModel:LeftToeBase
+    400734: playerModel:LeftUpLeg
+    400736: playerModel:Neck
+    400738: playerModel:RightArm
+    400740: playerModel:RightEye
+    400742: playerModel:RightFoot
+    400744: playerModel:RightForeArm
+    400746: playerModel:RightHand
+    400748: playerModel:RightHandIndex1
+    400750: playerModel:RightHandIndex2
+    400752: playerModel:RightHandIndex3
+    400754: playerModel:RightHandIndex4
+    400756: playerModel:RightHandMiddle1
+    400758: playerModel:RightHandMiddle2
+    400760: playerModel:RightHandMiddle3
+    400762: playerModel:RightHandMiddle4
+    400764: playerModel:RightHandPinky1
+    400766: playerModel:RightHandPinky2
+    400768: playerModel:RightHandPinky3
+    400770: playerModel:RightHandPinky4
+    400772: playerModel:RightHandRing1
+    400774: playerModel:RightHandRing2
+    400776: playerModel:RightHandRing3
+    400778: playerModel:RightHandRing4
+    400780: playerModel:RightHandThumb1
+    400782: playerModel:RightHandThumb2
+    400784: playerModel:RightHandThumb3
+    400786: playerModel:RightHandThumb4
+    400788: playerModel:RightLeg
+    400790: playerModel:RightShoulder
+    400792: playerModel:RightToe_End
+    400794: playerModel:RightToeBase
+    400796: playerModel:RightUpLeg
+    400798: playerModel:Spine
+    400800: playerModel:Spine1
+    400802: playerModel:Spine2
     2100000: body
     2100002: head
     2100004: singlet1
@@ -685,6 +821,8 @@ ModelImporter:
     2100018: iris
     2100020: phong1
     2100022: pants1
+    2100024: playerModel_body
+    2100026: playerModel_head
     2300000: hair_orig
     2300002: l_eye_orig
     2300004: l_thong_orig
@@ -722,8 +860,10 @@ ModelImporter:
     4300020: outer_shell_l_orig
     4300022: pants_button_orig
     4300024: pants_orig
+    4300026: playerModel:bodyMesh_orig
     9500000: //RootNode
     13700000: bodyMesh_orig
+    13700002: playerModel:bodyMesh_orig
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -760,6 +900,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: phong1
     second: {fileID: 2100000, guid: 6c59d69f2a0d5cb469e426b262efaae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: playerModel_body
+    second: {fileID: 2100000, guid: 7dc45f489e5aa134daf5a7d8fc77b8aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: playerModel_head
+    second: {fileID: 2100000, guid: 72788c8233ec8be47ae0e676a91ad7ff, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

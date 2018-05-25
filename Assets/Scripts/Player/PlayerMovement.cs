@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 movement;
     Rigidbody playerRigidbody;
     Animator anim;
+	AudioSource audio;
 
     float rotationX = 0f;
     float rotationY = 0f;
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         playerRigidbody = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+		audio = GetComponent<AudioSource> ();
     }
 	
 	// Update is called once per frame
@@ -67,5 +69,15 @@ public class PlayerMovement : MonoBehaviour
     {
 		bool walking = h != 0f || v != 0f;
 		anim.SetBool("isWalking", walking);
+		if (!audio.isPlaying) { 
+			if (walking) {
+				audio.Play ();
+			}
+		}
+		if (audio.isPlaying) {
+			if (!walking) {
+				audio.Stop ();
+			}
+		}
     }
 }

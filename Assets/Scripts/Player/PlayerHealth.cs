@@ -8,10 +8,12 @@ public class PlayerHealth : MonoBehaviour {
 	public int startingHealth = 100;
 	Text healthString;
 	public int currentHealth;
+	AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
 		currentHealth = startingHealth;
+		audio = GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -22,5 +24,6 @@ public class PlayerHealth : MonoBehaviour {
 	public void TakeDamage(int amount) {
 		currentHealth -= amount;
 		//play hurt audio
+		audio.Play();
 	}
 }
